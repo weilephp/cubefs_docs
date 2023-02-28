@@ -1,3 +1,4 @@
+---
 ocsHome: true
 showPageTop: true
 startPageTitle: Welcome to CubeFS
