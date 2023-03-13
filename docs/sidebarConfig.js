@@ -11,6 +11,9 @@ module.exports = [
       },
       'design/authnode.md',
       'design/blobstore.md',
+      'faq/build.md',
+      'faq/development.md.md',
+      'faq/fuse.md',
     ]
   },
 ]
