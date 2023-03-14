@@ -4,6 +4,7 @@ module.exports = [
     children: [
       'overview/introduction.md',
       'overview/architecture.md',
+      'overview/plan.md',
     ]
   },
   {
