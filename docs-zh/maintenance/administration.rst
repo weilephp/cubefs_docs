@@ -39,14 +39,3 @@ BlobStore管理
    ./admin-api/blobstore/access
    ./admin-api/blobstore/scheduler
    ./admin-api/blobstore/cli
-<<<<<<< HEAD
-
-使用CLI工具管理集群
-^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 3
-
-   ./admin-api/cli/cli
-=======
->>>>>>> 2be38c95eacf01800f003ca6ed5e82941e6213a1

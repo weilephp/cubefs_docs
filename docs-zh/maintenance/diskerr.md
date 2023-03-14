@@ -1,7 +1,5 @@
 # 节点或磁盘故障
 
-<<<<<<< HEAD
-=======
 ## datanode
 
 ### 节点故障处理
@@ -120,7 +118,6 @@ curl -v "http://192.168.0.11:17010/metaPartition/diagnose"
 }
 ```
 
->>>>>>> 2be38c95eacf01800f003ca6ed5e82941e6213a1
 ## Blobstore子系统
 
 Access、Proxy均为无状态节点，不涉及到数据搬迁，这里仅介绍Clustermgr与Blobnode的故障处理

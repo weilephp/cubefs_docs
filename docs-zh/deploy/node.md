@@ -69,9 +69,6 @@ sh ./shell/stop.sh
 ```
 
 ### CubeFS docker 部署
-<<<<<<< HEAD
-...
-=======
 
 在docker目录下，run_docker.sh工具用来方便运行CubeFS docker-compose试用集群。请确保已经安装docker和docker-compose，并在执行docker部署前确保防火墙关闭，避免权限问题导致容器启动失败。
 
@@ -109,7 +106,6 @@ $ docker/run_docker.sh -h
 
 
 监控的Prometheus和Grafana相关配置位于\`docker/monitor\`目录下。
->>>>>>> 2be38c95eacf01800f003ca6ed5e82941e6213a1
 ## Blobstore 部署 
 
 ### Blobstore 脚本部署

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# 对接Hadoop
-=======
 # 对接Hadoop
 
 Cubefs兼容Hadoop FileSystem接口协议，用户可以使用CubeFS来替换Hadoop 文件系统（ HDFS ）。本章描述了 Cubefs在 Hadoop 存储生态的安装和配置过程。
@@ -222,4 +219,3 @@ Exception in thread "main" java.lang.NoClassDefFoundError: com/sun/jna/Library
 ### 报错信息：volume name is required.
 
   volume名称不能包含“_”划线
->>>>>>> 2be38c95eacf01800f003ca6ed5e82941e6213a1
