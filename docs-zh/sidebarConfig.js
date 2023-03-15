@@ -2,9 +2,9 @@ module.exports = [
   {
     text: '概览',
     children: [
-      'overview/introduction.md',
-      'overview/architecture.md',
-						'overview/plan.md',
+      	'overview/introduction.md',
+      	'overview/architecture.md',
+	'overview/plan.md',
     ]
   },
   {
@@ -32,60 +32,60 @@ module.exports = [
   {
     text: '运维指南',
     children: [
-      'maintenance/env.md',
-						'maintenance/tool.md',
-						{
-									text: '服务管理命令',
-									children: [
-											'maintenance/admin-api/master/cluster.md',
-											'maintenance/admin-api/master/metanode.md',
-											'maintenance/admin-api/master/datanode.md',
-											'maintenance/admin-api/master/volume.md',
-											'maintenance/admin-api/master/meta-partition.md',
-											'maintenance/admin-api/master/data-partition.md',
-											'maintenance/admin-api/master/management.md',
-											'maintenance/admin-api/master/user.md',
-											'maintenance/admin-api/master/failureDomain.md',
-											'maintenance/admin-api/metanode/partition.md',
-											'maintenance/admin-api/metanode/inode.md',
-											'maintenance/admin-api/metanode/dentry.md',
-											'maintenance/admin-api/blobstore/base.md',
-											'maintenance/admin-api/blobstore/clustermgr.md',
-											'maintenance/admin-api/blobstore/blobnode.md',
-											'maintenance/admin-api/blobstore/access.md',
-											'maintenance/admin-api/blobstore/scheduler.md',
-									] 
-					},
-					{
-									text: '服务配置介绍',
-									children: [
-											'maintenance/configs/master.md',
-											'maintenance/configs/metanode.md',
-											'maintenance/configs/datanode.md',
-											'maintenance/configs/objectnode.md',
-											'maintenance/configs/client.md',
-											'maintenance/configs/blobstore/base.md',
-											'maintenance/configs/blobstore/rpc.md',
-											'maintenance/configs/blobstore/cm.md',
-											'maintenance/configs/blobstore/access.md',
-											'maintenance/configs/blobstore/proxy.md',
-											'maintenance/configs/blobstore/scheduler.md',											
-									] 
-					},
-					{
-									text: '监控与可视化配置',
-									children: [
-											'maintenance/metrics/metrics..md',
-											'maintenance/metrics/collect.md',
-											'maintenance/metrics/view.md',				
-									] 
-					},	
-						'maintenance/config.md',
-						'maintenance/diskerr.md',
-						'maintenance/capacity.md',
-						'maintenance/zone.md',
-						'maintenance/log.md',
-						'maintenance/upgrade.md',						
+      	'maintenance/env.md',
+	'maintenance/tool.md',
+	{
+		text: '服务管理命令',
+		children: [
+			'maintenance/admin-api/master/cluster.md',
+			'maintenance/admin-api/master/metanode.md',
+			'maintenance/admin-api/master/datanode.md',
+			'maintenance/admin-api/master/volume.md',
+			'maintenance/admin-api/master/meta-partition.md',
+			'maintenance/admin-api/master/data-partition.md',
+			'maintenance/admin-api/master/management.md',
+			'maintenance/admin-api/master/user.md',
+			'maintenance/admin-api/master/failureDomain.md',
+			'maintenance/admin-api/metanode/partition.md',
+			'maintenance/admin-api/metanode/inode.md',
+			'maintenance/admin-api/metanode/dentry.md',
+			'maintenance/admin-api/blobstore/base.md',
+			'maintenance/admin-api/blobstore/clustermgr.md',
+			'maintenance/admin-api/blobstore/blobnode.md',
+			'maintenance/admin-api/blobstore/access.md',
+			'maintenance/admin-api/blobstore/scheduler.md',
+		] 
+	},
+	{
+		text: '服务配置介绍',
+		children: [
+			'maintenance/configs/master.md',
+			'maintenance/configs/metanode.md',
+			'maintenance/configs/datanode.md',
+			'maintenance/configs/objectnode.md',
+			'maintenance/configs/client.md',
+			'maintenance/configs/blobstore/base.md',
+			'maintenance/configs/blobstore/rpc.md',
+			'maintenance/configs/blobstore/cm.md',
+			'maintenance/configs/blobstore/access.md',
+			'maintenance/configs/blobstore/proxy.md',
+			'maintenance/configs/blobstore/scheduler.md',											
+		] 
+	},
+	{
+		text: '监控与可视化配置',
+		children: [
+			'maintenance/metrics/metrics..md',
+			'maintenance/metrics/collect.md',
+			'maintenance/metrics/view.md',				
+		] 
+	},	
+	'maintenance/config.md',
+	'maintenance/diskerr.md',
+	'maintenance/capacity.md',
+	'maintenance/zone.md',
+	'maintenance/log.md',
+	'maintenance/upgrade.md',						
     ] 
   },
   {
