@@ -75,7 +75,7 @@ module.exports = [
 	{
     text: '监控与可视化配置',
     children: [
-        'maintenance/metrics/metrics..md',
+        'maintenance/metrics/metrics.md',
         'maintenance/metrics/collect.md',
         'maintenance/metrics/view.md',
     ]
