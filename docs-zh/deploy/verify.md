@@ -11,6 +11,7 @@
 # 查看卷信息
 ./build/bin/cfs-cli volume info ltptest
 ```
+
 ### 启动客户端
     + /home/cfs/client/mnt即为挂载点，代表挂载成功
 ```bash
